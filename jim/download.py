@@ -1,5 +1,7 @@
 from __future__ import division, print_function
 
+from contextlib import closing
+
 from jim.memoize import memoized
 
 
