@@ -9,6 +9,7 @@ from functools import (
     wraps,
 )
 
+
 def rendered_function(end=''):
     def _rendered_function(f):
         @wraps(f)
