@@ -10,7 +10,7 @@ from functools import (
 )
 
 
-def rendered_function(end=''):
+def rendered_function(end='', print=print):
     def _rendered_function(f):
         @wraps(f)
         def __rendered_function(*args, **kwargs):
